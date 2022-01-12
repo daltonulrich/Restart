@@ -11,9 +11,6 @@
 		9A0BFF95278E03F70081D568 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BFF94278E03F70081D568 /* ContentView.swift */; };
 		9A0BFF97278E03F80081D568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFF96278E03F80081D568 /* Assets.xcassets */; };
 		9A0BFF9A278E03F80081D568 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFF99278E03F80081D568 /* Preview Assets.xcassets */; };
-		9A0BFFA4278E03F80081D568 /* RestartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BFFA3278E03F80081D568 /* RestartTests.swift */; };
-		9A0BFFAE278E03F80081D568 /* RestartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BFFAD278E03F80081D568 /* RestartUITests.swift */; };
-		9A0BFFB0278E03F80081D568 /* RestartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BFFAF278E03F80081D568 /* RestartUITestsLaunchTests.swift */; };
 		9A0BFFBE278E04EE0081D568 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFFBC278E04EE0081D568 /* success.m4a */; };
 		9A0BFFBF278E04EE0081D568 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFFBD278E04EE0081D568 /* chimeup.mp3 */; };
 		9A0BFFC6278E082A0081D568 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BFFC5278E082A0081D568 /* OnboardingView.swift */; };
@@ -46,10 +43,7 @@
 		9A0BFF96278E03F80081D568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0BFF99278E03F80081D568 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A0BFF9F278E03F80081D568 /* RestartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A0BFFA3278E03F80081D568 /* RestartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartTests.swift; sourceTree = "<group>"; };
 		9A0BFFA9278E03F80081D568 /* RestartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A0BFFAD278E03F80081D568 /* RestartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartUITests.swift; sourceTree = "<group>"; };
-		9A0BFFAF278E03F80081D568 /* RestartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9A0BFFBC278E04EE0081D568 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		9A0BFFBD278E04EE0081D568 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		9A0BFFC4278E07D20081D568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				9A0BFF91278E03F70081D568 /* Restart */,
-				9A0BFFA2278E03F80081D568 /* RestartTests */,
-				9A0BFFAC278E03F80081D568 /* RestartUITests */,
 				9A0BFF90278E03F70081D568 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,23 +117,6 @@
 				9A0BFF99278E03F80081D568 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		9A0BFFA2278E03F80081D568 /* RestartTests */ = {
-			isa = PBXGroup;
-			children = (
-				9A0BFFA3278E03F80081D568 /* RestartTests.swift */,
-			);
-			path = RestartTests;
-			sourceTree = "<group>";
-		};
-		9A0BFFAC278E03F80081D568 /* RestartUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9A0BFFAD278E03F80081D568 /* RestartUITests.swift */,
-				9A0BFFAF278E03F80081D568 /* RestartUITestsLaunchTests.swift */,
-			);
-			path = RestartUITests;
 			sourceTree = "<group>";
 		};
 		9A0BFFC0278E05250081D568 /* Sounds */ = {
@@ -324,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0BFFA4278E03F80081D568 /* RestartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,8 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0BFFB0278E03F80081D568 /* RestartUITestsLaunchTests.swift in Sources */,
-				9A0BFFAE278E03F80081D568 /* RestartUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
